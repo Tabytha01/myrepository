@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabitha Kunda | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth; /* smooth scroll */
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800 bg-pink-270">
+  
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-brown-600">Tabitha Kunda</h1>
+      <nav class="hidden md:flex space-x-6">
+          <a href="#home" class="hover:text-pink-500">Home</a>
+          <a href="#about" class="hover:text-pink-500">About</a>
+          <a href="#projects" class="hover:text-pink-500">Projects</a>
+          <a href="#contact" class="hover:text-pink-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Home -->
+  <section id="home" class="bg-gradient-to-r from-brown-500 to-brown-200 h-screen flex flex-col justify-center text-center">
+    <div class="max-w-3xl mx-auto">
+      <img src="pic2.png" alt="Profile Picture" 
+      class="w-40 h-40 rounded-full mx-auto border-4 border-black-200">
+      <div>
+        <h2 class="mt-6 text-4xl font-extrabold text-black-800">Hello, I'm <span>Tabitha Kunda</span></h2>
+        <p class="mt-4 text-lg leading-relaxed">
+          A passionate <strong>Software Developer</strong> student who loves building user-friendly websites, solving problems, and turning ideas into reality.
+        </p>
+        <a href="#projects" class="mt-6 inline-block bg-pink-400 text-white px-6 py-3 rounded-lg shadow hover:bg-brown-800">See My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <img src="pic1.png" alt="About Me" class="rounded-full shadow-xl border-4 border-pink-200 w-72 h-72 object-cover hover:scale-105 transition-transform duration-300">
+    <div>
+      <h2 class="text-3xl font-bold text-brown-600">About Me</h2>
+      <p class="mt-4 text-lg leading-relaxed">
+        I am a Software Engineering student with a strong foundation in programming (C++, Python, JavaScript)  
+        and database management (SQL). I am passionate about creating user-centered designs, exploring networking,  
+        and continuously improving my skills to build impactful digital solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-brown-800 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="font-bold text-3xl text-brown-800">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8 mt-10">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold text-pink-500">Glint Cleaning Website</h3>
+          <p class="mt-3">A professional business website for a cleaning service company.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold text-pink-500">Networking Lab</h3>
+          <p class="mt-3">Configured VLANs, DHCP, and routing in Cisco Packet Tracer.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold text-pink-500">Kigali Wedding Venues</h3>
+          <p class="mt-3">A website showcasing wedding venues in Kigali with images and brief descriptions for easy selection.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="text-xl font-semibold text-pink-500">Teens Church Website</h3>
+          <p class="mt-3">A web application that allows admins to manage teen members’ information and send birthday wishes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center text-brown-800">Contact Me</h2>
+    <form class="mt-8 space-y-6 bg-white shadow-md p-6 rounded-xl">
+      <div>
+        <label class="block font-medium">Names</label>
+        <input type="text" placeholder="Your Name"
+        class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+      </div>
+      <div>
+        <label class="block font-medium">Email</label>
+        <input type="email" placeholder="Your Email"
+        class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-pink-400 outline-none">
+      </div>
+      <div>
+        <label class="block font-medium">Your Message</label>
+        <textarea rows="5" placeholder="Your Message..."
+        class="w-full mt-2 p-3 border rounded-lg focus:ring-2 focus:ring-pink-400 outline-none"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-pink-500 text-white py-3 rounded-lg hover:bg-pink-600">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-gray-600">
+    <div class="container">
+      <p>© 2025 Tabitha Kunda. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
