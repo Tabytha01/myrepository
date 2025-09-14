@@ -2,6 +2,9 @@
 
 This is my personal website/portfolio!
 
+## Homepage Preview
+![Homepage Screenshot](homepage.png)
+
 *Website Features*
   
   The main features of the website include:
